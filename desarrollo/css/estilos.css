@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container{
+    font-family: karla, sans-serif;
+    font-size: 16px;
+    background-color: rgb(209, 242, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(204, 204, 204, 0.39);
+    overflow: hidden;
+}
+
+.card-top{
+    height: 50%;
+    padding: 35px 35px 0px 35px;
+    background-color: #fff;
+}
+
+.card-top .titulo{
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+    color: rgb(33, 161, 161);
+}
+
+.card-top .subtitulo{
+    font-size: 20px;
+    color: rgb(0, 255, 106);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+
+.card-bottom{
+    display: flex;
+    height: 50%;
+}
+
+.card-right{
+    width: 50%;
+    padding: 35px;
+    background-color: rgb(64, 197, 164);
+}
+
+.card-right h3{
+    color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+}
+.card-right p{
+    font-size: 15px;
+    color: rgb(226, 218, 226);
+}
+
+.card-left{
+    width: 50%;
+    background-color: rgb(118, 204, 207);
+    padding: 35px;
+}
+
+.card-left h3{
+    color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+}
+
+.card-left .precio{
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card-left .precio span{
+    color: rgb(211, 210, 210);
+    font-size: 15px;
+}
+
+.card-left .promocion{
+    color: rgb(224, 224, 224);
+    font-size: 14px;
+    margin-bottom: 30px;    
+}
+
+.card-left a{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: rgb(204, 201, 8);
+    color: rgb(224, 224, 224);
+
+}
