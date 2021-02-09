@@ -43,6 +43,11 @@
     margin-bottom: 12px;
 }
 
+.card-top p{
+    color: #ccc;
+    line-height: 20px;
+}
+
 
 .card-bottom{
     display: flex;
@@ -52,7 +57,7 @@
 .card-right{
     width: 50%;
     padding: 35px;
-    background-color: rgb(64, 197, 164);
+    background-color: rgb(118, 204, 207);
 }
 
 .card-right h3{
@@ -66,8 +71,8 @@
 
 .card-left{
     width: 50%;
-    background-color: rgb(118, 204, 207);
     padding: 35px;
+    background-color: rgb(64, 197, 164);
 }
 
 .card-left h3{
@@ -95,7 +100,8 @@
 .card-left a{
     padding: 10px 80px;
     border-radius: 5px;
-    background-color: rgb(204, 201, 8);
+    background-color: rgb(146, 189, 6);
     color: rgb(224, 224, 224);
-
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
 }
